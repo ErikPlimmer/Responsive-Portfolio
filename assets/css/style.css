@@ -1,0 +1,160 @@
+h1 {
+	padding-left: 20px;
+	color: #8B0000;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
+}
+
+h2 {
+	color: white;
+	background-color: teal;
+	font-size: 80px;
+	text-align: center;
+ 
+}
+body{
+	width: 100%;
+	min-height: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position:absolute; top:0; bottom:0; right:0; left:0;
+}
+
+
+.background {
+	background-image: url("../images/vintage-concrete.png"); 
+	width: 100%;
+	background-repeat:repeat;
+	height: 100%;
+	position: relative;
+	
+}
+
+
+p {
+	text-align: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.mainsection {
+	width: 650px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 3px 3px 3px 3px;
+	margin-top: 20px;
+	margin-left: 100px;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline;
+}
+
+
+.navbar {	
+	margin-left: 900px;
+	background-color: white;
+	font-size: 24px;
+	padding-top: 35px;
+}
+
+.title {
+	
+	position: absolute;top:10px; bottom:0; right:0; left:100px;
+    width: 250px;
+	height: 57px;
+	padding-top: 19px;
+	margin-top: 15px;
+	font-size: 35px;
+	font-family: 'Georia', Times, Times New Roman, sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	background-color: #8B0000;
+	color: white;
+	text-align: center;
+}
+
+header {
+	font-family: 'Georia', Times, Times New Roman, sans-serif;
+	margin: 50px;
+	width:  100%;
+
+}
+
+
+footer {
+   position: fixed;
+   font-size: 18px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #666666;
+   padding: 25px;
+   border-color: #8B0000;
+   border-style: solid;
+   border-width: 5px 0px 0px 0px;
+   color: black;
+   text-align: center;
+   font-family: font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+	
+}
+
+.photo {
+	width: 300px;
+	height: 300px;
+	transform: rotate(90deg);
+	margin-top: 25px;
+	margin-left: 25px;
+	float: right;
+}
+
+
+.aside {
+	background-color: white;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 3px 3px 3px 3px;
+	position: absolute;top:125px; bottom:0; right:0; left:900px;
+	padding-top: 20px;
+	width: 250px;
+	height: 170px;
+	color: 	#8B0000;
+	font-size: 24px;
+	text-align: center;
+	display: inline-table;
+	float: right;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+
+.header {
+	width: 100%;
+	height: 100px;
+	margin-top: -20px;
+	background-color: white;
+	border-style: solid;
+	border-color: #8B0000;
+	border-width: 0px 0px 5px 0px;
+}
+	
+a {
+	color: #8B0000;
+
+}
