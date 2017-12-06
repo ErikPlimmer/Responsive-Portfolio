@@ -55,3 +55,42 @@ footer {
    text-align: center;
    font-family: font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+@media screen and (max-width: 980px) {
+   body {
+    }
+    .background {
+    width: 100%;
+    height: 100%
+    }
+    .mainsection {
+    width: 500px;
+    margin-left: 40px;
+    }
+    .aside {
+    width: 20%;
+    margin-left: 60px;
+    position: absolute;top:125px; bottom:0; right:0; left:580px;
+    }
+    .nav-bar {
+      margin-right: 200px;
+    }
+    .title {
+      position:absolute;top:10px; bottom:0; right:0; left:40px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+     .nav-bar {
+      margin-right: 200px;
+    }
+    .title {
+      position:absolute;top:10px; bottom:0; right:0; left:40px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+     .nav-bar {
+      margin-right: 200px;
+    }
+    .title {
+      position:absolute;top:10px; bottom:0; right:0; left:40px;
+    }
+  }

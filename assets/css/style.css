@@ -173,9 +173,32 @@ a {
    	position: absolute;top:125px; bottom:0; right:0; left:580px;
    	}
    	.nav-bar {
-   		margin-right: 200px;
+   		max-width: 100%;
+   		margin-left: 20px;
+   		background-color: purple;
    	}
    	.title {
    		position:absolute;top:10px; bottom:0; right:0; left:40px;
+   		align-content: center;
+
    	}
+   	li {
+   		align-content: center;
+   	}
+
+  }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+  @media screen and (max-width: 640px) {
+     .nav-bar {
+      margin-right: 200px;
+    }
+    .title {
+      position:absolute;top:10px; bottom:0; right:0; left:40px;
+    }
+
   }
